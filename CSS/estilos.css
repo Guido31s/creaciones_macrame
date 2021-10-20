@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  background-color: #f7f5f2;
+  min-height: 108px;
+  color: #000000;
+  line-height: 50%;
+  letter-spacing: 0.2rem;
+  font-size: 12px;
+}
+
+header .navbar-nav {
+  line-height: 14px;
+}
+
+header li {
+  padding: 0 1.5rem;
+}
+
+header a.borde::after {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  content: "";
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+  border-bottom: 1px solid black;
+}
+
+/* --------------------------------- Slider --------------------------------- */
+.carouselMain {
+  width: auto;
+  height: 774px;
+}
+
+.carousel-indicators {
+  left: auto;
+  -webkit-box-pack: auto;
+      -ms-flex-pack: auto;
+          justify-content: auto;
+  margin: 0;
+  padding: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style: none;
+  right: 0px;
+  top: 0%;
+}
+
+.carousel-indicators li {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.collapseNavBar {
+  font-size: 12px;
+}
+
+.collapseNavBar ul {
+  list-style: none;
+  text-align: left;
+}
+
+.collapseNavBar li {
+  margin-top: 10px;
+}
+
+.collapseNavBar a {
+  color: #000000;
+  padding: 0 1.5rem;
+}
+
+.collapseNavBar a:hover {
+  text-decoration: none;
+}
+
+.collapseNavBar a.title {
+  letter-spacing: 0.5rem;
+}
+
+.bread {
+  letter-spacing: 0.25rem;
+}
+
+.bread a {
+  color: black;
+  font-size: 12px;
+}
+
+footer {
+  background-color: #F7F5F2;
+  font-size: 12px;
+  min-height: 151px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: auto;
+  width: 100%;
+  letter-spacing: 0.2rem;
+}
+
+footer ul {
+  list-style: none;
+  margin: auto;
+}
+
+footer a {
+  color: #000000;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+}
+
+.titleContacto {
+  letter-spacing: 0.5rem;
+  font-size: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  content: "";
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+  border-bottom: 1px solid black;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+}
+
+.fondoNavFoot {
+  background-color: #f7f5f2;
+}
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,18 @@
+@import "fonts";
+@import "home";
+@import "quienesSomos";
+@import "contacto";
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.fondoNavFoot {
+  background-color: #f7f5f2;
+}
