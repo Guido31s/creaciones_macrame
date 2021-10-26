@@ -118,6 +118,7 @@ footer a {
 
 footer a:hover {
   text-decoration: none;
+  color: #000000;
 }
 
 footer img {
@@ -127,15 +128,14 @@ footer img {
 
 .titleContacto {
   letter-spacing: 0.5rem;
-  font-size: 25px;
+  font-size: 12px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   content: "";
   display: block;
-  margin: auto;
+  margin-left: 60px;
   padding-top: 10px;
-  border-bottom: 1px solid black;
 }
 
 html {

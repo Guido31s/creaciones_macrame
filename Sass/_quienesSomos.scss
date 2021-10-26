@@ -11,10 +11,11 @@ letter-spacing: 0.2rem;
         margin:auto;
         }
         a {
-            color: #000000;;
+            color: #000000;
 
             &:hover {
                 text-decoration: none;
+                color: #000000;
             }
         }
 
